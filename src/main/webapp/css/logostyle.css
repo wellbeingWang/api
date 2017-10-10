@@ -1,0 +1,24 @@
+a.logobanx:hover {
+    width:78px;
+    background:url(http://sell.b5m.com/images/b5mlogo2.png) no-repeat left top;
+    _background-image:none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src="http://sell.b5m.com/images/b5mlogo2.png", sizingMethod="image");
+}
+a.logobanx {
+    background: url(http://sell.b5m.com/images/b5mlogo1.png) no-repeat left top;
+    _background-image:none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src="http://sell.b5m.com/images/b5mlogo1.png", sizingMethod="image");
+}
+a.logobanx {
+    display:none;
+    height:18px;
+    width:26px;
+    text-align:justify;
+    letter-spacing:20px;
+    text-decoration:none;
+    overflow: hidden;
+    position:absolute;
+    z-index:10;
+    bottom:0;
+    right:0;
+}

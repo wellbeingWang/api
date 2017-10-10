@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<urlrewrite decode-using="null">
+
+
+    <rule>
+		<note>匹配以.do结尾地址</note>
+		<from>^/([_a-zA-Z]+[_0-9a-zA-Z-/]*[a-zA-Z]+)$</from>
+		<to>/$1.do</to>
+	</rule>
+</urlrewrite>

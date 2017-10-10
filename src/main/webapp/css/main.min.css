@@ -1,0 +1,1028 @@
+#qb-compare-back-benefit {
+	display: none !important;
+}
+
+.tb-attention #fanmila-panel {
+	display: none;
+}
+
+#fanmila-panel {
+	height: 38px;
+	line-height: 36px;
+	border: 1px solid #e5e5e5;
+	padding: 0px 0px 0px 4px;
+	font-family: 'Microsoft Yahei';
+	background-color: #ffffff;
+	width: auto;
+	float: left;
+	margin-top: 10px;
+	z-index: 2147483647;
+	position: relative;
+}
+
+#fanmila-panel a {
+	text-decoration: none;
+}
+
+#fanmila-panel i {
+	font-style: normal;
+}
+
+.inlineBlock {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fml-logo {
+	width: 32px;
+	height: 32px;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -607px -100px;
+}
+
+.fml-logo16 {
+	width: 16px;
+	height: 16px !important;
+	background: url(../images/sprites/main.png) no-repeat;
+}
+
+.fml-btn {
+	cursor: pointer;
+	height: 36px;
+	margin-left: 5px;
+	padding: 0 10px;
+	background-color: #ffe4d0;
+	border-radius: 2px;
+	color: #ffe4d0;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.fml-btn-config {
+	width: 22px;
+	height: 30px;
+	margin: 8px 0 0 8px;
+	cursor: pointer;
+}
+
+.fml-share {
+	display: none;
+}
+
+.fml-show-share .fml-share {
+	display: inline-block;
+}
+
+.fml-show-share .fml-share-separate1 {
+	margin-left: 9px;
+}
+
+.fml-btn-share {
+	color: #c21e12 !important;
+	font-size: 14px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+.fml-red .fml-btn-config {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -693px -100px;
+}
+
+.fml-red .fml-btn-config:hover {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -671px -100px;
+}
+
+.icon-right {
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 2px;
+}
+
+.fml-red .icon-right {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -735px -100px;
+}
+
+.fml-share-separate1,
+.separate1 {
+	width: 1px;
+	background-color: #eec5c1;
+	height: 20px;
+}
+
+.fml-tip-text {
+	color: #c21d12;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 5px;
+	vertical-align: middle;
+}
+
+#fanmila-panel.fml-login .fml-btn:hover {
+	background-color: #B51A02 !important;
+	color: #fff !important;
+}
+
+#fanmila-panel.fml-startUpFanli .fml-btn:hover {
+	background-color: #ffe4d0 !important;
+	color: #fff !important;
+}
+
+#fanmila-panel.fml-nofanli .fml-btn {
+	background-color: #fff;
+	color: #c21e12;
+	cursor: default;
+}
+
+#fanmila-panel.fml-nofanli .fml-tip-text,
+#fanmila-panel.fml-nofanli .fml-btn-more,
+#fanmila-panel.fml-nofanli .separate1 {
+	display: none;
+}
+
+#fanmila-panel.fml-hadStartUpFanli .fml-btn {
+	background-color: #ffe4d0;
+	color: #ff7a49;
+	cursor: default;
+	margin: 0;
+	padding: 0px 10px;
+}
+
+#fanmila-panel.fml-hadStartUpFanli .separate1 {
+	display: inline-block !important;
+}
+
+#fanmila-panel.fml-hadStartUpFanli .fml-tip-text {
+	margin: 0 4px;
+	color: #ee4343;
+}
+
+#fanmila-panel.fml-hadStartUpFanli .fml-tip-text i {
+	font-style: normal;
+	color: #ee4343;
+}
+
+#J_box_buycart #fanmila-panel {
+	margin-left: 59px;
+}
+
+#fanmila-alimama-panel {
+	display: block;
+	position: absolute;
+	width: 460px;
+	height: 270px;
+	top: 50%;
+	left: 50%;
+	margin: -135px 0 0 -230px;
+	background-color: #fff;
+	border: 2px solid #D2D2D2;
+	font-size: 14px;
+	color: #222222;
+	z-index: 2147483647;
+}
+
+#fanmila-alimama-panel .alimama-header {
+	height: 84px;
+	line-height: 84px;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -0px -0px;
+}
+
+#fanmila-alimama-panel .alimama-header span {
+	display: inline-block;
+	vertical-align: middle;
+	*display: inline;
+	*zoom: 1;
+}
+
+#fanmila-alimama-panel .alimama-header .icon-logo {
+	width: 48px;
+	height: 48px;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -559px -86px;
+	margin-left: 20px;
+}
+
+#fanmila-alimama-panel .alimama-header .brandName {
+	font-size: 26px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+#fanmila-alimama-panel .alimama-header .icon-text {
+	width: 86px;
+	height: 14px;
+	margin-left: 20px;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -607px -86px;
+}
+
+#fanmila-alimama-panel .alimama-header .btn-close {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -631px -134px;
+	width: 16px;
+	height: 16px;
+	float: right;
+	position: relative;
+	top: 34px;
+	right: 20px;
+	cursor: pointer;
+}
+
+#fanmila-alimama-panel .alimama-content {
+	padding: 20px 0 10px 20px;
+	line-height: 24px;
+	font-size: 14px;
+}
+
+#fanmila-alimama-panel .alimama-content a {
+	text-decoration: underline;
+	color: #222222;
+}
+
+#fanmila-alimama-panel .permissAb.alimama-content {
+	padding: 40px 10px;
+}
+
+#fanmila-alimama-panel .permissAb.alimama-content .btn-fix {
+	background-color: #c21e12;
+	padding: 10px 5px;
+	border: 1px solid #c21e12;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#fanmila-alimama-IptWwnum {
+	display: block;
+	position: absolute;
+	width: 215px;
+	height: 115px;
+	padding: 10px 30px;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -100px;
+	font-size: 14px;
+	color: #222222;
+	z-index: 2147483647;
+	background: #F5F5F5;
+}
+
+#fanmila-alimama-IptWwnum .tt {
+	font-size: 16px;
+}
+
+#fanmila-alimama-IptWwnum .ipt input {
+	width: 200px;
+	border: 1px solid #B1B1B1;
+	padding: 7px 5px;
+}
+
+#fanmila-alimama-IptWwnum .btns {
+	margin-top: 10px;
+}
+
+#fanmila-alimama-IptWwnum .btn-confirm {
+	float: left;
+	background: #f7f7f7;
+	border: 1px solid #2d88bf;
+	background: #54aede;
+	color: #fff;
+	padding: 0 12px;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#fanmila-alimama-IptWwnum .err-mes {
+	color: #DC0E0E;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+#fanmila-alimama-IptWwnum .btn-cancel {
+	cursor: pointer;
+}
+
+#fanmila-alimama-IptWwnum .btn-confirm:hover {
+	background: #399dd8;
+}
+
+#fml-embedRecom {
+	padding-bottom: 6px;
+}
+
+#fml-embedRecom dt {
+	margin-top: 4px;
+}
+
+#fml-embedRecom dd {
+	float: left;
+}
+
+#fml-embedRecom img {
+	width: 86px;
+	height: 86px;
+}
+
+#fml-embedRecom a {
+	text-decoration: none;
+}
+
+#fml-embedRecom li {
+	border: 1px solid #E6E6E6;
+	position: relative;
+	float: left;
+	width: 86px;
+	height: 86px;
+	margin-right: 6px;
+}
+
+#fml-embedRecom .fml-price {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 25px;
+	line-height: 25px;
+	width: 86px;
+	text-align: center;
+	background-color: #c21e12;
+	color: #fff;
+}
+
+#fml-embedRecom .tb-metatit {
+	width: 25px !important;
+	margin-right: 35px !important;
+}
+
+.btn-close1 {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	height: 15px;
+	width: 10px;
+	line-height: 15px;
+	cursor: pointer;
+	font-size: 15px;
+	color: #B5B5B5;
+}
+
+.fml-btn-more {
+	color: #c21e12;
+	font-size: 15px;
+	line-height: 28px;
+	margin-left: 5px;
+	cursor: pointer;
+	border: 1px solid #c21e12;
+	width: 50px;
+	text-align: center;
+	border-radius: 25px;
+}
+
+.queItems {
+	position: absolute;
+	bottom: 0px;
+	top: 50px;
+	line-height: 26px;
+	right: 0;
+	font-size: 12px;
+	height: 26px;
+	overflow: hidden;
+	text-align: right;
+}
+
+.queItems li {
+	position: relative;
+}
+
+.queItems a {
+	color: #666 !important;
+}
+
+.box-more {
+	position: absolute;
+	right: -102px;
+	border: 1px solid #c21e12;
+	top: -1px;
+	padding: 5px 10px;
+	background-color: #fff;
+	text-align: center;
+	display: none;
+	line-height: 24px;
+}
+
+.box-more .fml-ck-automore {
+	position: relative;
+	top: 2px;
+}
+
+.box-more .fml-icon-wrong,
+.box-more .fml-icon-right,
+.box-more .fml-icon-question {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -559px -134px;
+	margin-left: 2em;
+	position: relative;
+	top: 5px;
+}
+
+.box-more .fml-icon-right {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -715px -100px;
+}
+
+.box-more .fml-icon-question {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -693px -86px;
+	margin-left: 0;
+	width: 12px;
+	height: 12px;
+	margin-right: -12px;
+	top: 3px;
+	position: relative;
+}
+
+.box-more .fml-tip2 {
+	color: #000;
+	border: 1px solid #E94E40;
+	background-color: #fff;
+	padding: 5px 10px;
+	bottom: 22px;
+	right: -92px;
+	text-align: left;
+	position: absolute;
+	width: 180px;
+	display: none;
+	z-index: 211;
+}
+
+.box-more .fml-tip2 span {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0 5px;
+	border-color: #E94E40 transparent transparent transparent;
+	bottom: -10px;
+	right: 50%;
+	margin-right: -8px;
+}
+
+.box-more .fml-tip2 span i {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0 5px;
+	border-color: #fff transparent transparent transparent;
+	bottom: 2px;
+	left: -5px;
+}
+
+#J_isku #fanmila-panel {
+	left: 0;
+}
+
+#detail .fml-startUpFanli .fml-btn,
+#detail .fml-login .fml-btn,
+#detail .fml-notfinish .fml-btn,
+#detail .fml-notaoke .fml-btn,
+.item-buy .fml-startUpFanli .fml-btn,
+.item-buy .fml-login .fml-btn,
+.item-buyl .fml-notfinish .fml-btn {
+	color: #ff7a49 !important;
+}
+
+.item-buy #fanmila-panel {
+	margin-left: 17px;
+}
+
+#J_BuyButtonWrap #fanmila-panel {
+	margin-right: 40px;
+}
+
+.bodyCenter {
+	position: fixed;
+	_position: absolute;
+	z-index: 2147483647;
+	top: 50%;
+	left: 50%;
+	height: 70px;
+	margin: -35px 0 0 -150px;
+	padding: 10px 20px;
+	width: 300px;
+	background-color: #fff;
+	border: 2px solid #f40;
+	line-height: 30px;
+	color: #404040;
+}
+
+.bodyCenter .fml-btn-closed {
+	position: absolute;
+	top: -5px;
+	right: 3px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.bodyCenter .fml-ie-btn {
+	color: #fff;
+	background-color: #f40;
+	display: inline-block;
+	padding: 0 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.bodyCenter .btn-howToDo {
+	margin-left: 37px;
+}
+
+.bodyCenter .btn-closedExt {
+	margin-left: 53px;
+}
+
+.fml-config-wrapper {
+	position: fixed;
+	z-index: 2147483647;
+	top: 50%;
+	left: 50%;
+	margin: -60px 0 0 -140px;
+	padding: 30px 10px 10px 15px;
+	height: 120px;
+	width: 320px;
+	background-color: #fff;
+	border: 2px solid #f40;
+	line-height: 30px;
+	color: #404040;
+	font-family: 'Microsoft Yahei';
+}
+
+.fml-config-wrapper .fml-logo16 {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/sprites/main.png) no-repeat;
+	position: relative;
+	top: 4px;
+}
+
+.fml-config-wrapper .fml-tt {
+	position: absolute;
+	top: -5px;
+	left: 3px;
+	font-size: 16px;
+}
+
+.fml-config-wrapper .fml-btn-closed {
+	position: absolute;
+	top: -5px;
+	right: 3px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.fml-config-wrapper .fml-config-title {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #000;
+}
+
+.fml-config-wrapper .fml-config-ct {
+	color: #c21e12;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.fml-config-wrapper .fml-btn-radio {
+	width: 20px;
+	height: 20px;
+	margin: 0 10px 0 40px;
+	cursor: pointer;
+}
+
+.fml-config-wrapper .fml-btn-radio-noCheck {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -579px -134px;
+}
+
+.fml-config-wrapper .fml-btn-radio-check {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -597px -134px;
+}
+
+.fml-config-wrapper .fml-config-btn-cancel {
+	border: 1px solid #C40000;
+	padding: 5px 20px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #C40000;
+}
+
+.fml-config-wrapper .fml-config-btn-ok {
+	cursor: pointer;
+	margin: 0 20px 0 120px;
+}
+
+.fml-share-wrapper {
+	position: fixed;
+	z-index: 2147483647;
+	top: 50%;
+	left: 50%;
+	margin: -60px 0 0 -140px;
+	padding: 10px;
+	height: 120px;
+	width: 280px;
+	background-color: #fff;
+	border: 2px solid #f40;
+	line-height: 30px;
+	color: #404040;
+	font-family: 'Microsoft Yahei';
+}
+
+.updateWindow {
+	position: fixed;
+	z-index: 2147483647;
+	top: 50%;
+	left: 50%;
+	margin: -60px 0 0 -140px;
+	padding: 10px;
+	height: 80px;
+	width: 300px;
+	background-color: #fff;
+	border: 2px solid #f40;
+	line-height: 40px;
+	color: #404040;
+	font-family: 'Microsoft Yahei';
+	text-align: center;
+}
+
+.updateWindow .updateWindow-info {
+	font-size: 14px;
+}
+
+.updateWindow .updateWindow-btn-closed {
+	position: absolute;
+	top: -5px;
+	right: 3px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.updateWindow .updateWindow-btn {
+	border: 1px solid #C40000;
+	background-color: #FFEDED;
+	padding: 5px 20px;
+	color: #C40000;
+	cursor: pointer;
+}
+
+.updateWindow .updateWindow-btn:hover {
+	color: #fff;
+	background-color: #C40000;
+}
+
+.updateWindow .updateWindow-btn-ok {
+	margin-right: 30px;
+}
+
+#mainsrp-itemlist .fml-logo16 {
+	margin-right: 4px;
+	vertical-align: top;
+}
+
+#mainsrp-itemlist .fml-goods-fanliInfo {
+	font-family: 'Microsoft Yahei';
+	font-size: 13px;
+	line-height: 1.4;
+	float: right;
+	color: #F40;
+}
+
+#mainsrp-itemlist .fml-SP-btn-login {
+	color: #F40 !important;
+	text-decoration: none;
+}
+
+#J_ItemList .fml-logo16 {
+	margin-bottom: 5px;
+}
+
+#J_ItemList .fml-goods-fanliInfo * {
+	font-family: 'Microsoft Yahei';
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+#J_ItemList .productPrice {
+	overflow: hidden !important;
+}
+
+#J_ItemList .fml-SP-btn-login {
+	color: #C00 !important;
+	text-decoration: none;
+}
+
+#J_ItemList .fml-SP-wrapperJFB {
+	bottom: 30px;
+	background: #23a8f2;
+}
+
+.fml-step1 {
+	position: absolute;
+	text-align: center;
+	z-index: 2147483647;
+	display: none;
+}
+
+.fml-step1 p {
+	width: 200px;
+	font-size: 20px;
+	height: 70px;
+	line-height: 70px;
+	color: #fff;
+	background-color: #C21E12;
+}
+
+.fml-step1 i {
+	display: block;
+	position: absolute;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -469px -86px;
+	height: 90px;
+	width: 90px;
+	right: -87px;
+	top: 34px;
+}
+
+.fml-step2 {
+	position: absolute;
+	text-align: center;
+	z-index: 2147483647;
+	display: none;
+}
+
+.fml-step2 p {
+	width: 200px;
+	font-size: 20px;
+	height: 70px;
+	line-height: 70px;
+	color: #fff;
+	background-color: #C21E12;
+}
+
+.fml-step2 i {
+	display: block;
+	position: absolute;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -350px -86px;
+	height: 90px;
+	width: 90px;
+	left: -89px;
+	top: -46px;
+}
+
+#fml-pop-rb {
+	width: 350px;
+	height: 150px;
+	text-align: center;
+	line-height: 30px;
+	position: fixed;
+	background: white;
+	right: 35px;
+	bottom: -150px;
+	font-size: 14px;
+	font-family: "Microsoft Yahei",tahoma,arial;
+	font-weight: 400;
+	z-index: 2147483647;
+}
+
+#fml-pop-rb .fml-pop-close {
+	position: absolute;
+	right: 0;
+	top: -9px;
+	font-size: 22px;
+	color: #000;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#fml-pop-rb .fml-pop-tt {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -0px -219px;
+}
+
+#fml-pop-rb .fml-pop-contert {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -0px -86px;
+	height: 100px;
+	padding: 10px 0;
+}
+
+#fml-pop-rb .fml-pop-tip1 {
+	font-size: 12px;
+	color: #c40000;
+}
+
+#fml-pop-rb a {
+	text-decoration: none;
+}
+
+#fml-pop-rb .fml-pop-btn {
+	float: left;
+	background-color: #c40000;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	padding: 2px 8px;
+}
+
+#fanmila-panel-jd {
+	clear: both;
+	height: 60px;
+	line-height: 50px;
+	border: 1px solid #c21e12;
+	font-size: 16px;
+	padding: 0 6px;
+	font-family: 'Microsoft Yahei';
+	background-color: #ffffff;
+	width: auto;
+	float: left;
+	z-index: 2147483647;
+	position: relative;
+}
+
+#fanmila-panel-jd .fml-logo {
+	width: 32px;
+	height: 32px;
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -607px -100px;
+	margin-top: -7px;
+	margin-right: 10px;
+}
+
+#fanmila-panel-jd i.fml-major {
+	color: #E94E40;
+	font-size: 24px;
+	margin: 0 5px;
+	vertical-align: middle;
+	position: relative;
+	top: -3px;
+}
+
+#fanmila-panel-jd em {
+	font-size: 12px;
+	right: 10px;
+	position: absolute;
+	top: 5px;
+}
+
+#fanmila-panel-jd .btn-login {
+	cursor: pointer;
+	margin-left: 10px;
+	width: 100px;
+	background-color: #E94E40;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	position: relative;
+}
+
+#fanmila-panel-jd .fml-login-wrp {
+	display: none;
+	position: absolute;
+	bottom: 61px;
+	border: 1px solid #c21e12;
+	line-height: 20px;
+	right: -1px;
+	background-color: #fff;
+	font-size: 14px;
+	padding: 10px 20px;
+	border-bottom: 0;
+}
+
+#fanmila-panel-jd .fml-login-wrp .fml-msg-error {
+	font-size: 12px;
+	color: #e80c0c;
+	margin-left: 50px;
+}
+
+#fanmila-panel-jd .fml-login-wrp input {
+	padding: 4px;
+	margin: 8px;
+	width: 150px;
+}
+
+#fanmila-panel-jd .fml-login-wrp a {
+	font-size: 12px;
+	color: #1414ec;
+}
+
+#fanmila-panel-jd .fml-login-wrp .btn-login {
+	margin: 5px 0 0 70px;
+	height: 30px;
+	line-height: 30px;
+	width: 85px;
+}
+
+#fanmila-panel-jd.state-fanli {
+	border-color: #21b121;
+	height: 50px;
+}
+
+#fanmila-panel-jd.state-fanli i.fml-major {
+	color: #21b121;
+}
+
+#fanmila-panel-jd.state-fanli #btn-login1 {
+	display: none;
+}
+
+#fanmila-panel-jd .icon-larrow {
+	background: url(../images/sprites/main.png) no-repeat;
+	background-position: -639px -100px;
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	position: relative;
+	top: -2px;
+}
+
+#fanmila-panel-jd .tip1 {
+	display: none;
+	position: absolute;
+	right: -72px;
+	top: -47px;
+	border: 1px solid #E94E40;
+	background-color: #fff;
+	padding: 5px 10px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 4px;
+}
+
+#fanmila-panel-jd .tip1 span {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 16px 8px 0 8px;
+	border-color: #E94E40 transparent transparent transparent;
+	bottom: -17px;
+	right: 50%;
+	margin-right: -8px;
+}
+
+#fanmila-panel-jd .tip1 span i {
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 16px 8px 0 8px;
+	border-color: #fff transparent transparent transparent;
+	bottom: 2px;
+	left: -8px;
+}
+
+#fml-sd-wrp {
+	font-family: 'Microsoft YaHei';
+}
+
+.imgtoso{
+	cursor: pointer;
+	height: 36px;
+	padding: 0 10px;
+	background-color: #eb2222;
+	border-radius: 2px;
+	color: #ffffff;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.detail a{
+	color:#ffffff;
+}
